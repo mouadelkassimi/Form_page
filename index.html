@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+    <title>Formulaire inscription</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="./main.css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="./main.js"></script>
+    
+</head>
+
+<body>
+
+    <div class="plan">
+     <div class="container">
+         <div class="row">
+
+        <div class="col-md-6 col-lg-6">
+            <h5>Inscrivez-vous</h5>
+            <p class="pr1">Créez un compte gratuit sur Futur Digital</p>
+      
+          
+                
+            <form>
+                <div class="container">
+
+                <div class="form-item">
+                    <input type="text" id="nomcomplet" autocomplete="off" required>
+                    <label for="nomcomplet">Nom complet</label>
+                </div>
+
+                <div class="form-item">
+                    <input type="email" id="adressemail" autocomplete="off" required>
+                    <label for="adressemail">Adresse e-mail</label>
+                </div>
+
+                <div class="form-item">
+                    <input type="password" id="motdepasse" autocomplete="off" name="password" required>
+                    <label for="motdepasse">mot de passe</label>
+                    <span toggle="#motdepasse" class="fa fa-fw field-icon toggle-password fa-eye"></span>
+                    <p class="pr2">Le mot de passe doit comporter entre 4 et 6 caractères</p>
+                </div>
+
+                <div class="form-item">
+                    <input type="password" id="confmotdepasse" autocomplete="off" required>
+                    <label for="confmotdepasse">Confirmer le mot de passe</label>
+                    <span toggle="#confmotdepasse" class="fa fa-fw field-icon toggle-password fa-eye"></span>
+                </div>
+
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="Check1">
+                    <label class="form-check-label" for="Check1">J'ai accepté les <b>conditions générales</b></label>
+                  </div>
+                  <button type="submit" class="btn btn-primary btnsin">S'INSCRIRE</button>
+           
+        </div>
+            </form>
+              
+         
+        </div>
+        <div class="col-md-6 col-lg-6">
+            <img class="img1" >
+        </div>
+
+         </div>
+     </div>
+    </div>
+
+</body>
+</html>
